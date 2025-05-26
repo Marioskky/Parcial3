@@ -1,3 +1,3 @@
 # Parcial3
 Mario Sahuco Guarinos
-![imagen](image.png)
+![Imagen](image-1.png)

@@ -35,7 +35,7 @@ public class Empleados {
     }
 
     /**
-     * Muestra por pantalla la lista de empleados.
+     * Muestra por pantalla la lista de empleadoss.
      */
     public void mostrarEmpleados() {
         System.out.println(Mensajes.LISTA_EMPLEADOS);
