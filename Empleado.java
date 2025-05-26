@@ -1,84 +1,56 @@
-/**
- * Clase que representa a un empleado de la empresa.
- */
+// Clase que representa a un empleado
 class Empleado {
-    /** Nombre del empleado */
+    // Nombre del empleado
     private String nombre;
-    /** Cargo del empleado */
+    // Cargo del empleado
     private String cargo;
-    /** Salario del empleado */
+    // Salario del empleado
     private double salario;
 
-    /**
-     * Constructor de la clase Empleado.
-     * @param nombre Nombre del empleado
-     * @param cargo Cargo del empleado
-     * @param salario Salario del empleado
-     */
+    // Constructor de la clase Empleado
     public Empleado(String nombre, String cargo, double salario) {
-        this.nombre = nombre;
-        this.cargo = cargo;
-        this.salario = salario;
+        this.nombre = nombre; // Asigna el nombre
+        this.cargo = cargo;   // Asigna el cargo
+        this.salario = salario; // Asigna el salario
     }
 
-    /**
-     * Obtiene el nombre del empleado.
-     * @return nombre
-     */
+    // Devuelve el nombre del empleado
     public String getNombre() {
         return nombre;
     }
 
-    /**
-     * Establece el nombre del empleado.
-     * @param nombre Nombre a establecer
-     */
+    // Establece el nombre del empleado
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    /**
-     * Obtiene el cargo del empleado.
-     * @return cargo
-     */
+    // Devuelve el cargo del empleado
     public String getCargo() {
         return cargo;
     }
 
-    /**
-     * Establece el cargo del empleado.
-     * @param cargo Cargo a establecer
-     */
+    // Establece el cargo del empleado
     public void setCargo(String cargo) {
         this.cargo = cargo;
     }
 
-    /**
-     * Obtiene el salario del empleado.
-     * @return salario
-     */
+    // Devuelve el salario del empleado
     public double getSalario() {
         return salario;
     }
 
-    /**
-     * Establece el salario del empleado.
-     * @param salario Salario a establecer
-     */
+    // Establece el salario del empleado
     public void setSalario(double salario) {
         this.salario = salario;
     }
 
-    /**
-     * Devuelve una representación en String del empleado.
-     * @return String con los datos del empleado
-     */
+    // Devuelve una representación en texto del empleado
     @Override
     public String toString() {
         return "Empleado{" +
-                "nombre='" + nombre + '\'' +
-                ", cargo='" + cargo + '\'' +
-                ", salario=" + salario +
+                "nombre='" + nombre + '\'' + // Muestra el nombre
+                ", cargo='" + cargo + '\'' + // Muestra el cargo
+                ", salario=" + salario +       // Muestra el salario
                 '}';
     }
 }
